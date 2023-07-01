@@ -1,18 +1,15 @@
 
-/* Your CSS Code here. */
-body{
+.holder{
 	display:flex;
+	flex-direction:fullscreen;
+	width:100%;
 	justify-content:center;
 	align-items:center;
+	position:center;
 	
 }
-.holder{
-	height:100vh;
-	width:100vw;
-	display:flex;
-		
-	justify-content:center;
-	align-self:center;
+.item{
+	border:1px solid black;
 	
 }
 
